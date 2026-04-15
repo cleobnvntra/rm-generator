@@ -4,7 +4,9 @@ Contributions to `GENEREADME` are welcome! Please checkout [CONTRIBUTING.md](./C
 
 # GENEREADME
 
-`GENEREADME` is a command-line tool that takes in a file, processes it, and generates a README file with an explanation or documentation of the contents of the file. The tool utilizes OpenAI chat completion to analyze the file and generate content.
+`GENEREADME` is a command-line tool that automatically generates README documentation from source code files. It processes input files and leverages OpenAI’s chat completion API to analyze code structure and produce clear, structured explanations.
+
+The tool is designed to simplify documentation workflows by transforming raw code into readable and organized documentation, using custom prompt engineering to control formatting, tone, and output consistency.
 
 ![genereadme demo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tp52qaefjdua1ggi15e4.gif)
 
